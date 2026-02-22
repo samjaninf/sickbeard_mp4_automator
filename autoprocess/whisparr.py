@@ -52,7 +52,7 @@ def processMovie(dirName, settings, nzbGet=False, importMode=None, logger=None, 
 
     webroot = settings.Whisparr['webroot']
     url = protocol + host + ":" + str(port) + webroot + "/api/v3/command"
-    payload = {'name': 'DownloadedMoviesScan', 'path': dirName}
+    payload = {'name': 'DownloadedEpisodesScan', 'path': dirName}
     if importMode:
         payload["importMode"] = importMode
     headers = {
