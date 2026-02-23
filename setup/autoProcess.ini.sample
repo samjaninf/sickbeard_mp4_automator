@@ -178,6 +178,17 @@ rescan = True
 in-progress-check = True
 block-reprocess = False
 
+[Whisparr]
+host = localhost
+port = 6969
+apikey =
+ssl = False
+webroot =
+force-rename = False
+rescan = True
+in-progress-check = True
+block-reprocess = False
+
 [Sickbeard]
 host = localhost
 port = 8081
